@@ -55,39 +55,39 @@ export const teachers: Artist[] = [
     id: 't1',
     name: 'Marta & Pedro',
     role: 'Profesores Lindy Hop / Shag',
-    image: 'https://images.unsplash.com/photo-1549880181-56a44cf4ea28?q=80&w=800&auto=format&fit=crop',
+    image: '/images/marta-pedro.jpeg',
   },
   {
     id: 't2',
     name: 'Regina & Rostom',
     role: 'Profesores Lindy Hop / Blues',
-    image: 'https://images.unsplash.com/photo-1504609774528-6946db21aebd?q=80&w=800&auto=format&fit=crop',
+    image: '/images/regina.jpeg',
   },
   {
     id: 't3',
     name: 'Astrid & Sander',
     role: 'Profesores Lindy Hop / Solo Jazz',
-    image: 'https://images.unsplash.com/photo-1524593689594-aae2f26b75ab?q=80&w=800&auto=format&fit=crop',
+    image: '/images/astrid-sander.jpeg',
   },
 ];
 
 export const bands: Artist[] = [
-  { id: 'b1', name: 'The Sentimental Gentlemen', role: 'Viernes 17', image: 'https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=800&auto=format&fit=crop' },
-  { id: 'b2', name: 'Martin Burguez & His Rhythm Combo', role: 'Viernes 17', image: 'https://images.unsplash.com/photo-1598387181032-a3103a2db5b3?q=80&w=800&auto=format&fit=crop' },
-  { id: 'b3', name: 'The Red Hot Rollers', role: 'Viernes 17', image: 'https://images.unsplash.com/photo-1533174000865-65cbfc6b4144?q=80&w=800&auto=format&fit=crop' },
-  { id: 'b4', name: 'Coastline Dixielanders', role: 'Sábado 18', image: 'https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?q=80&w=800&auto=format&fit=crop' },
-  { id: 'b5', name: 'Cody Lee & His Rhythm Keys', role: 'Sábado 18', image: 'https://images.unsplash.com/photo-1525926477800-7a31a0fa2e89?q=80&w=800&auto=format&fit=crop' },
-  { id: 'b6', name: 'The Sun Rockets', role: 'Sábado 18', image: 'https://images.unsplash.com/photo-1510515155452-f902ac793d5f?q=80&w=800&auto=format&fit=crop' },
-  { id: 'b7', name: 'La Petite Suite Band', role: 'Domingo 19', image: 'https://images.unsplash.com/photo-1528645602411-bfbe828a2b53?q=80&w=800&auto=format&fit=crop' }
+  { id: 'b1', name: 'The Sentimental Gentlemen', role: 'Viernes 17', image: '/images/sentimental-gentlemen.jpeg' },
+  { id: 'b2', name: 'Martin Burguez & His Rhythm Combo', role: 'Viernes 17', image: '/images/martin-burguez.jpeg' },
+  { id: 'b3', name: 'The Red Hot Rollers', role: 'Viernes 17', image: '/images/red-hot-rollers.png' },
+  { id: 'b4', name: 'Coastline Dixielanders', role: 'Sábado 18', image: '/images/diego-suarez.jpeg' },
+  { id: 'b5', name: 'Cody Lee & His Rhythm Keys', role: 'Sábado 18', image: '/images/cody-lee.png' },
+  { id: 'b6', name: 'The Sun Rockets', role: 'Sábado 18', image: '/images/sun-rockets.jpeg' },
+  { id: 'b7', name: 'La Petite Suite Band', role: 'Domingo 19', image: '/images/petite-suite.jpeg' }
 ];
 
 export const workshops = [
-  { id: 'w1', style: 'Shag', teachers: 'Cécile & Pablo', school: 'Hop Hop Swing' },
-  { id: 'w2', style: 'Charleston', teachers: 'Leo Piñar', school: 'Swing Makers' },
-  { id: 'w3', style: 'Balboa', teachers: 'Sonia & J. Carlos', school: 'Swingdigo' },
-  { id: 'w4', style: 'Jive', teachers: 'Belén & Toni', school: 'Nineteen Jive' },
-  { id: 'w5', style: 'Solo Jazz', teachers: 'Mario Rebollido', school: 'Hop Hop Swing' },
-  { id: 'w6', style: 'Blues', teachers: 'Rostom Mahadhbi', school: '' }
+  { id: 'w1', style: 'Shag', teachers: 'Cécile & Pablo', school: 'Hop Hop Swing', image: '/images/cecile-pablo.jpeg' },
+  { id: 'w2', style: 'Charleston', teachers: 'Leo Piñar', school: 'Swing Makers', image: '/images/leo.jpeg' },
+  { id: 'w3', style: 'Balboa', teachers: 'Sonia & J. Carlos', school: 'Swingdigo', image: '/images/sonia-jcarlos.jpeg' },
+  { id: 'w4', style: 'Jive', teachers: 'Belén & Toni', school: 'Nineteen Jive', image: '/images/belen-toni.jpeg' },
+  { id: 'w5', style: 'Solo Jazz', teachers: 'Mario Rebollido', school: 'Hop Hop Swing', image: '/images/mario.jpeg' },
+  { id: 'w6', style: 'Blues', teachers: 'Rostom Mahadhbi', school: '', image: '/images/rostom.jpeg' }
 ];
 
 export const passes = [

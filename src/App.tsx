@@ -10,6 +10,7 @@ import Workshops from './components/Workshops';
 import Passes from './components/Passes';
 import InfoDetails from './components/InfoDetails';
 import Sponsors from './components/Sponsors';
+import Contact from './components/Contact';
 
 export default function App() {
   return (
@@ -22,13 +23,14 @@ export default function App() {
         <Workshops />
         <Passes />
         <InfoDetails />
+        <Contact />
         <Sponsors />
       </main>
       
       <footer className="bg-retro-navy py-12 text-center border-t-[16px] border-retro-teal">
         <div className="font-swing text-3xl text-retro-cream mb-4">Swing Monachil 2026</div>
         <p className="font-sans text-retro-cream/60 text-sm max-w-xl mx-auto">
-          © 2026 Festival Internacional Swing de Monachil. Todos los derechos reservados. Contacto: intensivofestivalmonachil@gmail.com
+          © 2026 Festival Internacional Swing de Monachil. Todos los derechos reservados. Contacto: festivalswingmonachil@gmail.com
         </p>
       </footer>
     </div>

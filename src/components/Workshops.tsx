@@ -62,7 +62,7 @@ export default function Workshops() {
           <div className="h-1 w-24 bg-retro-red mx-auto mt-6"></div>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {workshops.map((workshop, index) => (
             <motion.div 
                key={workshop.id}
@@ -70,21 +70,29 @@ export default function Workshops() {
                whileInView={{ opacity: 1, y: 0 }}
                viewport={{ once: true }}
                transition={{ delay: index * 0.1 }}
-               className="bg-retro-cream text-retro-navy p-6 border-l-8 border-retro-red flex flex-col justify-between"
+               className="bg-retro-navy text-retro-cream border-4 border-retro-yellow flex flex-col group overflow-hidden relative shadow-[8px_8px_0_#d3202e]"
             >
-              <div>
-                <div className="flex justify-between items-start mb-2">
-                   <h3 className="font-bold font-sans text-2xl uppercase tracking-wider text-retro-teal">{workshop.style}</h3>
-                   <Music className="w-5 h-5 text-retro-yellow" />
+              <div className="h-56 w-full overflow-hidden relative border-b-4 border-retro-yellow bg-slate-800">
+                <img 
+                   src={workshop.image} 
+                   alt={workshop.teachers} 
+                   className="w-full h-full object-cover grayscale sepia transition-transform duration-500 group-hover:scale-110 group-hover:grayscale-0 group-hover:sepia-0" 
+                />
+                <div className="absolute top-3 left-3 bg-retro-red text-retro-cream font-sans font-bold text-xs uppercase px-3 py-1 border-2 border-retro-yellow shadow-[4px_4px_0_#153243] transform -rotate-3 rounded-sm">
+                  {workshop.style}
                 </div>
-                <p className="font-sans font-bold text-lg leading-tight mb-2">{workshop.teachers}</p>
               </div>
-              {workshop.school && (
-                <div className="text-xs font-sans font-medium uppercase tracking-widest text-retro-red flex items-center gap-1 mt-4 border-t border-retro-navy/10 pt-4">
-                  <Sparkles className="w-3 h-3" />
-                  {workshop.school}
+              <div className="p-6 flex flex-col justify-between flex-1">
+                <div>
+                   <h3 className="font-rye text-2xl uppercase tracking-wider text-retro-yellow mb-2 leading-tight">{workshop.teachers}</h3>
                 </div>
-              )}
+                {workshop.school && (
+                  <div className="text-xs font-sans font-black uppercase tracking-widest text-retro-car flex items-center gap-2 mt-4 pt-4 border-t-2 border-retro-cream/10 border-dashed">
+                    <Sparkles className="w-4 h-4" />
+                    {workshop.school}
+                  </div>
+                )}
+              </div>
             </motion.div>
           ))}
         </div>

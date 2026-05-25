@@ -6,6 +6,7 @@ const NAV_LINKS = [
   { name: 'Programación', href: '#programacion' },
   { name: 'Workshops', href: '#workshops' },
   { name: 'Info & Alojamientos', href: '#info' },
+  { name: 'Contacto', href: '#contacto' },
   { name: 'Patrocinadores', href: '#patrocinadores' },
 ];
 

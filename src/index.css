@@ -34,8 +34,24 @@ body {
   text-shadow: 3px 3px 0px #d3202e, 6px 6px 0px #153243, 8px 8px 15px rgba(0,0,0,0.5);
 }
 
+.text-shadow-outline {
+  text-shadow: -1px -1px 0 #153243, 1px -1px 0 #153243, -1px 1px 0 #153243, 1px 1px 0 #153243, 2px 2px 0px #153243;
+}
+
 .bg-pattern {
-  background-image: radial-gradient(var(--color-retro-cyan) 2px, transparent 2px);
+  background-image: radial-gradient(rgba(13, 122, 127, 0.4) 2px, transparent 2px);
   background-size: 30px 30px;
   background-color: var(--color-retro-cream);
+}
+
+.bg-checkerboard-red {
+  background-image: repeating-linear-gradient(45deg, #d3202e 25%, transparent 25%, transparent 75%, #d3202e 75%, #d3202e), repeating-linear-gradient(45deg, #d3202e 25%, #F3E5D8 25%, #F3E5D8 75%, #d3202e 75%, #d3202e);
+  background-position: 0 0, 40px 40px;
+  background-size: 80px 80px;
+}
+
+.bg-checkerboard-blue {
+  background-image: repeating-linear-gradient(45deg, #153243 25%, transparent 25%, transparent 75%, #153243 75%, #153243), repeating-linear-gradient(45deg, #153243 25%, #F3E5D8 25%, #F3E5D8 75%, #153243 75%, #153243);
+  background-position: 0 0, 40px 40px;
+  background-size: 80px 80px;
 }
