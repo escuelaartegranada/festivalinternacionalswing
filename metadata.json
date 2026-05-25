@@ -1,0 +1,6 @@
+{
+  "name": "Festival Swing Monachil 2026",
+  "description": "Sitio web del Festival Internacional Swing de Monachil 2026. Programación, talleres, artistas y más.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

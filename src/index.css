@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:wght@300;400;600;800;900&family=Oleo+Script:wght@400;700&family=Rye&family=Pacifico&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-retro-cyan: #0fa3b1;
+  --color-retro-teal: #0D7A7F;
+  --color-retro-yellow: #F4D03F;
+  --color-retro-red: #d3202e;
+  --color-retro-cream: #F3E5D8;
+  --color-retro-navy: #153243;
+  --color-retro-car: #83C5BE;
+  
+  --font-deco: "Limelight", cursive;
+  --font-script: "Pacifico", cursive;
+  --font-sans: "Montserrat", sans-serif;
+  --font-swing: "Oleo Script", cursive;
+  --font-rye: "Rye", serif;
+}
+
+body {
+  background-color: var(--color-retro-cream);
+  color: var(--color-retro-navy);
+}
+
+.text-shadow-retro {
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.4);
+}
+
+.text-shadow-yellow {
+  text-shadow: 4px 4px 0px #F4D03F, 8px 8px 0px #153243;
+}
+
+.text-shadow-swing {
+  text-shadow: 3px 3px 0px #d3202e, 6px 6px 0px #153243, 8px 8px 15px rgba(0,0,0,0.5);
+}
+
+.bg-pattern {
+  background-image: radial-gradient(var(--color-retro-cyan) 2px, transparent 2px);
+  background-size: 30px 30px;
+  background-color: var(--color-retro-cream);
+}
