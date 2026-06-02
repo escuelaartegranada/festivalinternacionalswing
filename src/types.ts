@@ -4,6 +4,7 @@ export interface Artist {
   image: string;
   role: string;
   description?: string;
+  members?: { name: string; instrumentOrRole: string; image: string; }[];
 }
 
 export interface ScheduleItem {

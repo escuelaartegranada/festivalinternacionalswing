@@ -75,7 +75,20 @@ export const bands: Artist[] = [
   { id: 'b1', name: 'The Sentimental Gentlemen', role: 'Viernes 17', image: '/images/sentimental-gentlemen.jpeg' },
   { id: 'b2', name: 'Martin Burguez & His Rhythm Combo', role: 'Viernes 17', image: '/images/martin-burguez.jpeg' },
   { id: 'b3', name: 'The Red Hot Rollers', role: 'Viernes 17', image: '/images/red-hot-rollers.png' },
-  { id: 'b4', name: 'Coastline Dixielanders', role: 'Sábado 18', image: '/images/diego-suarez.jpeg' },
+  { 
+    id: 'b4', 
+    name: 'Coastline Dixielanders', 
+    role: 'Sábado 18', 
+    image: '/images/diego-suarez.jpeg',
+    members: [
+      { name: 'Diego Suárez', instrumentOrRole: 'Piano', image: '/images/diego-suarez.jpeg' },
+      { name: 'Tete Leal', instrumentOrRole: 'Clarinete / Saxo', image: '/images/tete-leal.jpeg' },
+      { name: 'Ricky Vivar', instrumentOrRole: 'Guitarra', image: '/images/ricky-vivar.jpeg' },
+      { name: 'Jose A. Serrano', instrumentOrRole: 'Contrabajo', image: '/images/jose-serrano.jpeg' },
+      { name: 'Rafa Huertas', instrumentOrRole: 'Batería', image: '/images/rafa-huertas.jpeg' },
+      { name: 'Jorge Urbano', instrumentOrRole: 'Trompeta', image: '/images/jorge-urbano.jpeg' }
+    ]
+  },
   { id: 'b5', name: 'Cody Lee & His Rhythm Keys', role: 'Sábado 18', image: '/images/cody-lee.png' },
   { id: 'b6', name: 'The Sun Rockets', role: 'Sábado 18', image: '/images/sun-rockets.jpeg' },
   { id: 'b7', name: 'La Petite Suite Band', role: 'Domingo 19', image: '/images/petite-suite.jpeg' }
