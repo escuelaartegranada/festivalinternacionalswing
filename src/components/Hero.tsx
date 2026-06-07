@@ -18,10 +18,9 @@ export default function Hero() {
           className="relative w-full h-full"
         >
           <img 
-            src="/images/cabecera.jpg" 
+            src="./images/cabecera.jpg" 
             alt="Festival Internacional de Swing Monachil 2026" 
-            className={`w-full h-full object-cover object-center ${!headerLoaded ? 'hidden' : 'block'}`}
-            onError={() => setHeaderLoaded(false)}
+            className="w-full h-full object-cover object-center"
           />
           
           {!headerLoaded && (

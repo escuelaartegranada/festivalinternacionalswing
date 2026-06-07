@@ -9,6 +9,8 @@ export default function Artists() {
   const [selectedBand, setSelectedBand] = useState<Artist | null>(null);
   const { t } = useTranslation();
 
+  console.log('Bands in Artists:', bands);
+
   return (
     <section id="artistas" className="py-20 bg-retro-navy text-retro-cream px-4 border-t-[8px] border-retro-red relative overflow-hidden">
       {/* Smooth vintage glowing background instead of harsh checkerboard */}
