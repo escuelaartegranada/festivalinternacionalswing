@@ -3,13 +3,17 @@ import { motion, AnimatePresence } from 'motion/react';
 import { bands } from '../data';
 import { Star, Users, X, Music } from 'lucide-react';
 import { Artist } from '../types';
+import { useTranslation } from 'react-i18next';
 
 export default function Artists() {
   const [selectedBand, setSelectedBand] = useState<Artist | null>(null);
+  const { t } = useTranslation();
 
   return (
-    <section id="artistas" className="py-20 bg-retro-navy text-retro-cream px-4 border-y-[12px] border-retro-red relative overflow-hidden">
-      <div className="absolute inset-0 bg-checkerboard-blue opacity-30 z-0 pointer-events-none"></div>
+    <section id="artistas" className="py-20 bg-retro-navy text-retro-cream px-4 border-t-[8px] border-retro-red relative overflow-hidden">
+      {/* Smooth vintage glowing background instead of harsh checkerboard */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_#1a7a76_0%,_#021422_70%)] opacity-80 z-0 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-10 mix-blend-overlay z-0 pointer-events-none"></div>
 
       <div className="container mx-auto max-w-6xl relative z-10">
         
@@ -22,7 +26,7 @@ export default function Artists() {
           <div className="bg-retro-red px-10 py-3 border-4 border-retro-yellow shadow-[6px_6px_0_rgba(0,0,0,0.5)] transform -rotate-2 relative">
              <span className="absolute top-2 left-2"><Star className="w-3 h-3 text-retro-yellow fill-retro-yellow" /></span>
              <span className="absolute top-2 right-2"><Star className="w-3 h-3 text-retro-yellow fill-retro-yellow" /></span>
-             <h2 className="font-rye text-4xl md:text-5xl text-retro-yellow uppercase tracking-widest mt-1">Artistas Invitados</h2>
+             <h2 className="font-rye text-4xl md:text-5xl text-retro-yellow uppercase tracking-widest mt-1">{t('artists.title')}</h2>
              <span className="absolute bottom-2 left-2"><Star className="w-3 h-3 text-retro-yellow fill-retro-yellow" /></span>
              <span className="absolute bottom-2 right-2"><Star className="w-3 h-3 text-retro-yellow fill-retro-yellow" /></span>
           </div>
@@ -43,7 +47,6 @@ export default function Artists() {
                 <img 
                   src={band.image} 
                   alt={band.name} 
-                  referrerPolicy="no-referrer"
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 
@@ -53,7 +56,7 @@ export default function Artists() {
                 <div className="relative z-20 p-5 flex flex-col justify-end h-full">
                   <div className="flex justify-between items-center mb-3">
                      <span className="font-sans font-black text-xs tracking-widest text-retro-red uppercase bg-retro-cream py-1 px-3 inline-block border-2 border-retro-red transform -rotate-2">
-                       {band.role}
+                       {t(`data.bandRole.${band.id}`, { defaultValue: band.role })}
                      </span>
                      
                      {band.members && (
@@ -62,7 +65,7 @@ export default function Artists() {
                          className="flex items-center gap-1.5 font-sans font-bold text-xs bg-retro-yellow text-retro-navy px-2.5 py-1 border-2 border-retro-navy shadow-[2px_2px_0_rgba(0,0,0,0.35)] hover:translate-y-0.5 hover:shadow-[1px_1px_0_rgba(0,0,0,0.35)] transition-all uppercase cursor-pointer"
                        >
                          <Users className="w-3.5 h-3.5" />
-                         Ver Componentes
+                         {t('artists.viewMembers')}
                        </button>
                      )}
                   </div>
@@ -73,7 +76,7 @@ export default function Artists() {
                   
                   {band.members && (
                     <span className="font-sans text-xs text-retro-cream/85 font-semibold tracking-wider">
-                      Quinteto de Jazz Tradicional y Swing de Málaga
+                      {t('artists.quintet')}
                     </span>
                   )}
                 </div>
@@ -104,10 +107,10 @@ export default function Artists() {
               <div className="mb-8 border-b-4 border-dashed border-retro-navy/20 pb-4 pr-12">
                  <div className="flex items-center gap-2 mb-2">
                     <span className="font-sans font-black text-xs text-retro-cream bg-retro-red py-1 px-3 border-2 border-retro-navy uppercase transform -rotate-1">
-                      {selectedBand.role}
+                      {t(`data.bandRole.${selectedBand.id}`, { defaultValue: selectedBand.role })}
                     </span>
                     <span className="font-sans font-bold text-xs uppercase text-retro-teal tracking-widest flex items-center gap-1">
-                      <Music className="w-3.5 h-3.5" /> Componentes
+                      <Music className="w-3.5 h-3.5" /> {t('artists.members')}
                     </span>
                  </div>
                  <h2 className="font-rye text-4xl text-retro-red drop-shadow-[1px_1px_0_#fff] uppercase leading-none">{selectedBand.name}</h2>
@@ -127,12 +130,11 @@ export default function Artists() {
                       <img 
                         src={member.image} 
                         alt={member.name} 
-                        referrerPolicy="no-referrer"
                         className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                       />
                     </div>
                     <h4 className="font-rye text-lg text-retro-navy leading-tight mb-1">{member.name}</h4>
-                    <span className="font-sans text-xs text-retro-teal uppercase font-black tracking-wide">{member.instrumentOrRole}</span>
+                    <span className="font-sans text-xs text-retro-teal uppercase font-black tracking-wide">{t(`data.bandInstrument.${member.name}`, { defaultValue: member.instrumentOrRole })}</span>
                   </motion.div>
                 ))}
               </div>

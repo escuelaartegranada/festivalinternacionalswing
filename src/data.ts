@@ -53,21 +53,24 @@ export const scheduleData: DaySchedule[] = [
 export const teachers: Artist[] = [
   {
     id: 't1',
-    name: 'Marta & Pedro',
-    role: 'Profesores Lindy Hop / Shag',
+    name: 'Marta Chamosa & Pedro Vieira',
+    role: 'Lindy Hop / Shag',
     image: '/images/marta-pedro.jpeg',
+    description: 'Encantadora pareja que con su baile se centra principalmente en lograr una buena combinación de musicalidad, conexión con la pareja, crear espacios abiertos donde cada uno pueda tener su propia voz en el baile, y muy a menudo les gusta inspirarse en los pioneros y en grabaciones antiguas. Intentan añadir su propio estilo y personalidad, creando así un puente con las raíces de estos bailes, pero también tratando de impulsarlos hacia adelante. Ellos vienen de Oporto y Vigo.'
   },
   {
     id: 't2',
-    name: 'Regina & Rostom',
-    role: 'Profesores Lindy Hop / Blues',
+    name: 'Regina Sanchís & Rostom Mhadhbi',
+    role: 'Lindy Hop / Blues / Balboa',
     image: '/images/regina.jpeg',
+    description: 'Ella ha bailado distintos estilos desde pequeña hasta que encontró en el lindy hop y el authentic jazz, su pasión. Actualmente es profesora en The Nest Alicante, donde da clases de forma regular. En su baile busca siempre inspiración en las raíces culturales afroamericanas y los clásicos. Le interesa entender el movimiento como un espacio de exploración, juego y expresión personal, con especial atención al groove y a la musicalidad. Y en el baile en pareja, pone el foco en la conexión, las inercias, y el respeto por el espacio compartido. Le acompañará Rostom Mhadhbi; él es un apasionado del swing y el blues. Comenzó con el Lindy Hop pero pronto se expandió al Balboa, el Charleston y el blues. Rápidamente se enganchó al ritmo, las historias y el movimiento. Valora la expresión personal y la improvisación. Cree que bailar es más significativo cuando se comprenden y respetan sus raíces en la cultura afroamericana. Ha impartido clases en Estonia, Bélgica, Dinamarca, Italia, España… y ha contribuido al crecimiento de las escenas locales a lo largo de su trayectoria. Ha ganado algunos concursos, pero se siente más a gusto compartiendo, aprendiendo y bailando de festival en festival.'
   },
   {
     id: 't3',
-    name: 'Astrid & Sander',
-    role: 'Profesores Lindy Hop / Solo Jazz',
+    name: 'Astrid Akay & Sander Costermans',
+    role: 'Lindy Hop / Authentic Jazz',
     image: '/images/astrid-sander.jpeg',
+    description: 'Directamente desde la vibrante escena swing de Bruselas llega una pareja que combina elegancia, autenticidad y pura energía jazz sobre la pista. Miembros de la mítica crew The Old Soulz, destacan por su pasión por el Lindy Hop más auténtico, inspirado en las raíces afroamericanas del swing y en los grandes bailarines de la era dorada del jazz. Ella aporta creatividad, teatralidad y una conexión única con la improvisación, mientras que él deslumbra con su musicalidad, su estética impecable y un estilo explosivo influenciado por el early bebop. Juntos crean una mezcla magnética de técnica, expresión y diversión social que convierte cada clase y cada baile en una auténtica fiesta. En el Festival de Swing de Monachil prepárate para bailar, aprender y dejarte contagiar por el espíritu más salvaje y elegante del swing europeo. ¡La pista va a arder!'
   },
 ];
 

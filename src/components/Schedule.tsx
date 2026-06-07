@@ -1,8 +1,10 @@
 import { motion } from 'motion/react';
 import { scheduleData } from '../data';
 import { Music, Star, GlassWater, Info } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export default function Schedule() {
+  const { t } = useTranslation();
   const getIcon = (type: string) => {
     switch(type) {
       case 'show': return <Star className="w-5 h-5 text-retro-yellow" />;
@@ -32,8 +34,8 @@ export default function Schedule() {
               <div className="mb-6 flex items-baseline gap-2 pb-2">
                 <span className="font-rye text-7xl md:text-8xl text-retro-cream text-shadow-outline leading-none">{dayIndex + 17}</span>
                 <div className="flex flex-col">
-                  <span className="font-rye text-3xl text-retro-yellow uppercase tracking-widest leading-none mb-1">{day.day}</span>
-                  <span className="font-sans font-bold text-xs text-retro-car uppercase tracking-widest">{day.location}</span>
+                  <span className="font-rye text-3xl text-retro-yellow uppercase tracking-widest leading-none mb-1">{t(`data.scheduleDay.${day.day}`, { defaultValue: day.day })}</span>
+                  <span className="font-sans font-bold text-xs text-retro-car uppercase tracking-widest">{t(`data.scheduleLoc.${day.day}`, { defaultValue: day.location })}</span>
                 </div>
               </div>
 
@@ -45,7 +47,7 @@ export default function Schedule() {
                     </div>
                     <div className="flex-1">
                       <h4 className={`font-sans font-bold leading-tight flex items-center gap-2 ${event.type === 'info' ? 'text-retro-cream/70 text-sm' : 'text-retro-cream text-lg uppercase font-black tracking-wide'}`}>
-                        {event.title}
+                        {t(`data.scheduleEvent.${event.id}`, { defaultValue: event.title })}
                         {getIcon(event.type)}
                       </h4>
                     </div>

@@ -1,0 +1,165 @@
+{
+  "nav": {
+    "programacion": "Programación",
+    "workshops": "Workshops",
+    "info": "Info & Alojamientos",
+    "contacto": "Contacto",
+    "patrocinadores": "Patrocinadores"
+  },
+  "hero": {
+    "title": "Cabecera del Festival",
+    "subtitle": "Por favor, sube la imagen adjunta a la carpeta <1>public/images</1> con el nombre <3>cabecera.jpg</3>"
+  },
+  "passes": {
+    "title": "Tickets & Full Passes",
+    "subtitle": "Compra tu entrada y no te pierdas nada del festival.",
+    "buy": "Inscríbete Ahora"
+  },
+  "schedule": {
+    "title": "Programación",
+    "subtitle": "Tres días de música en directo, baile y actividades en Monachil."
+  },
+  "workshops": {
+    "title": "Profesores de Baile",
+    "readMore": "Leer más detalles",
+    "stylesTitle": "Talleres de Estilos"
+  },
+  "artists": {
+    "title": "Música en Directo",
+    "subtitle": "Nuestras increíbles bandas que te harán no parar de bailar.",
+    "viewMembers": "Ver Componentes",
+    "members": "Componentes",
+    "quintet": "Quinteto de Jazz Tradicional y Swing de Málaga"
+  },
+  "info": {
+    "title": "Alojamientos & Guía",
+    "subtitle": "Monachil cuenta con una gran variedad de opciones para tu estancia durante el festival.",
+    "hotel1": "<1>Hotel Granada Palace</1> (Sede de la Pool Party) - Oferta especial para asistentes.",
+    "hotel2": "<1>Hotel Boutique Los Cerezos.</1>",
+    "hotel3": "Hostales y apartamentos turísticos cerca del Parque de los Aragones.",
+    "guideBtn": "Ver Guía Completa de Clases y Horarios",
+    "venueTitle": "Localizaciones",
+    "venue1": "<1>Salón de Usos Múltiples</1> (Barrio Monachil)",
+    "venue2": "<1>Sala Miraflores</1> (Monachil)",
+    "venue3": "<1>Parque de los Aragones</1>",
+    "transTitle": "Transporte",
+    "transSubtitle": "Para llegar a Monachil desde Granada, puedes utilizar las siguientes líneas de autobús metropolitano:",
+    "bus1": "<1>Línea 181</1> y <1>Línea 183</1>",
+    "guide": {
+      "title": "GUÍA COMPLETA DEL FESTIVAL",
+      "p1": "Ya tenemos aquí el esperado Workshop del FESTIVAL DE SWING DE MONACHIL 2026 y tenemos un cartel espectacular!!!",
+      "h1": "Os presentamos a nuestros profesores:",
+      "h2": "Profesores Master Class:",
+      "contact": "Si venís en grupo o tenéis alguna consulta os dejamos nuestro correo:",
+      "l1": "Las clases se repartirán entre el Salón de Usos Múltiples/Barrio Monachil/ y la Sala Miraflores/Monachil (Si hay alguna modificación en las ubicaciones se avisará con antelación al evento)",
+      "l2": "Las clases se realizarán entre el viernes 17 (Iniciación 0/1 Lindy) y el domingo 19 de Julio (Resto Workshop)/ Horarios descritos más adelante.",
+      "l3": "La Vintage Pool Party del domingo 19 se realizará en las instalaciones del Hotel Granada Palace.",
+      "l4": "LAS MASTER CLASS A ELEGIR SE ADJUDICARÁN POR ORDEN DE INSCRIPCIÓN HASTA COMPLETAR AFORO, EN ESE CASO CONSIDERAREMOS OTRA POSIBLE OPCIÓN. SERÁN INICIACIÓN A CADA ESTILO, SALVO SOLO JAZZ QUE SERÁ MULTINIVEL, PERO AJUSTAREMOS EL NIVEL DE CUALQUIERA DE ESAS CLASES SEGÚN VUESTRAS NECESIDADES.",
+      "passesTitle": "PASES Y PRECIOS",
+      "scheduleTitle": "HORARIOS DE CLASES",
+      "footer": "¡Arrancamos la nueva edición!"
+    }
+  },
+  "contact": {
+    "title": "Inscripciones",
+    "subtitle": "Asegura tu pase en esta edición del Swing Monachil 2026 completando el formulario oficial.",
+    "formTitle": "Formulario de Inscripción",
+    "formDesc": "Haz clic en el siguiente botón para acceder al formulario de inscripción oficial. Rellena todos tus datos y selecciona tu pack.",
+    "btn": "Abrir Formulario",
+    "contactBtn": "Contacto Directo"
+  },
+  "footer": {
+    "rights": "© 2026 Festival Internacional Swing de Monachil. Todos los derechos reservados. Contacto: festivalswingmonachil@gmail.com"
+  },
+  "data": {
+    "scheduleDay": {
+      "Viernes": "Viernes",
+      "Sábado": "Sábado",
+      "Domingo": "Domingo"
+    },
+    "scheduleLoc": {
+      "Viernes": "Miraflores (Monachil)",
+      "Sábado": "Edif. Usos Múltiples / Miraflores / Parque de los Aragones",
+      "Domingo": "Edif. Usos Múltiples / Hotel Granada Palace"
+    },
+    "scheduleEvent": {
+      "v_ck": "Check In",
+      "v_0": "Iniciación 0",
+      "v_1": "Iniciación 1",
+      "v_ck2": "Check In",
+      "v_mc1": "Master Class BLUES (Rostom)",
+      "v_mc2": "Master Class CHARLESTON (Leonor)",
+      "v_c1": "The Sentimental Gentlemen",
+      "v_c2": "Martín Burguez & His Rhythm Combo",
+      "v_c3": "The Red Hot Rollers",
+      "s_ck": "Check In Veleta/Mulhacen",
+      "s_c1": "Clases: Veleta & Mulhacen",
+      "s_ck2": "Check In Beginner",
+      "s_c2": "Beginner / Solo Jazz 1 & 2",
+      "s_mc1": "Master Class Solo Jazz (Mario)",
+      "s_mc2": "Master Class Shag Iniciación (Pablo & Cécile)",
+      "s_mc3": "Master Class Balboa (Sonia & Juan Carlos)",
+      "s_mc4": "Master Class Jive (Nineteen Jive)",
+      "s_c3": "Coastline Dixielanders",
+      "s_c4": "Show de Estilos (Profes)",
+      "s_c5": "Cody Lee & His Rhythm Keys",
+      "s_c6": "The Sun Rockets",
+      "d_1": "Beginner Monachil / Veleta",
+      "d_2": "Solo Sierra Nevada 3",
+      "d_3": "Mulhacen / Shag Intermedio",
+      "d_4": "Pool Party (Hotel Granada Palace)",
+      "d_5": "La Petite Suite Band"
+    },
+    "teacherRole": {
+      "t1": "Lindy Hop / Shag",
+      "t2": "Lindy Hop / Blues / Balboa",
+      "t3": "Lindy Hop / Authentic Jazz"
+    },
+    "teacherDesc": {
+      "t1": "Encantadora pareja que con su baile se centra principalmente en lograr una buena combinación de musicalidad, conexión con la pareja, crear espacios abiertos donde cada uno pueda tener su propia voz en el baile, y muy a menudo les gusta inspirarse en los pioneros y en grabaciones antiguas. Intentan añadir su propio estilo y personalidad, creando así un puente con las raíces de estos bailes, pero también tratando de impulsarlos hacia adelante. Ellos vienen de Oporto y Vigo.",
+      "t2": "Ella ha bailado distintos estilos desde pequeña hasta que encontró en el lindy hop y el authentic jazz, su pasión. Actualmente es profesora en The Nest Alicante, donde da clases de forma regular. En su baile busca siempre inspiración en las raíces culturales afroamericanas y los clásicos. Le interesa entender el movimiento como un espacio de exploración, juego y expresión personal, con especial atención al groove y a la musicalidad. Y en el baile en pareja, pone el foco en la conexión, las inercias, y el respeto por el espacio compartido. Le acompañará Rostom Mhadhbi; él es un apasionado del swing y el blues. Comenzó con el Lindy Hop pero pronto se expandió al Balboa, el Charleston y el blues. Rápidamente se enganchó al ritmo, las historias y el movimiento. Valora la expresión personal y la improvisación. Cree que bailar es más significativo cuando se comprenden y respetan sus raíces en la cultura afroamericana. Ha impartido clases en Estonia, Bélgica, Dinamarca, Italia, España… y ha contribuido al crecimiento de las escenas locales a lo largo de su trayectoria. Ha ganado algunos concursos, pero se siente más a gusto compartiendo, aprendiendo y bailando de festival en festival.",
+      "t3": "Directamente desde la vibrante escena swing de Bruselas llega una pareja que combina elegancia, autenticidad y pura energía jazz sobre la pista. Miembros de la mítica crew The Old Soulz, destacan por su pasión por el Lindy Hop más auténtico, inspirado en las raíces afroamericanas del swing y en los grandes bailarines de la era dorada del jazz. Ella aporta creatividad, teatralidad y una conexión única con la improvisación, mientras que él deslumbra con su musicalidad, su estética impecable y un estilo explosivo influenciado por el early bebop. Juntos crean una mezcla magnética de técnica, expresión y diversión social que convierte cada clase y cada baile en una auténtica fiesta. En el Festival de Swing de Monachil prepárate para bailar, aprender y dejarte contagiar por el espíritu más salvaje y elegante del swing europeo. ¡La pista va a arder!"
+    },
+    "bandRole": {
+      "b1": "Viernes 17",
+      "b2": "Viernes 17",
+      "b3": "Viernes 17",
+      "b4": "Sábado 18",
+      "b5": "Sábado 18",
+      "b6": "Sábado 18",
+      "b7": "Domingo 19"
+    },
+    "bandInstrument": {
+      "Diego Suárez": "Piano",
+      "Tete Leal": "Clarinete / Saxo",
+      "Ricky Vivar": "Guitarra",
+      "Jose A. Serrano": "Contrabajo",
+      "Rafa Huertas": "Batería",
+      "Jorge Urbano": "Trompeta"
+    },
+    "passesName": {
+      "0": "Full Pass Lindy",
+      "1": "Full Pass Solo Jazz",
+      "2": "Full Pass Beginner",
+      "3": "Full Pass Shag"
+    },
+    "passesDesc": {
+      "0": "6 horas de clase. 2 niveles (Veleta/Mulhacén) + 2 Master Classes + Pool Party.",
+      "1": "5 horas de clase (Intermedio/Avanzado) + Pool Party.",
+      "2": "4 horas de clase Lindy Hop + Pool Party.",
+      "3": "2 horas de clase (Intermedio) + Pool Party."
+    },
+    "sponsorsRole": {
+      "Ayuntamiento de Monachil": "Organiza y Patrocina",
+      "Diputación de Granada": "Colabora"
+    },
+    "workshopStyle": {
+      "w1": "Shag",
+      "w2": "Charleston",
+      "w3": "Balboa",
+      "w4": "Jive",
+      "w5": "Solo Jazz",
+      "w6": "Blues"
+    }
+  }
+}
